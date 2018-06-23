@@ -3,7 +3,7 @@ import Message from './Message';
 import Friend from './Friend';
 
 import io from 'socket.io-client'
-let socket = io(`http://localhost:4443`);
+let socket = io(`https://stormy-hamlet-10917.herokuapp.com/`);
 
 export default class Chat extends Component {
 
